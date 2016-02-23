@@ -1,9 +1,7 @@
-range-seek-bar
+android-range-seek-bar
 ======================
 
 # Introduction
-
-If you are coming from [the original repo](https://github.com/yahoo/android-range-seek-bar), it has a [new home](https://github.com/anothem/android-range-seek-bar) so if you're seeing this, you're probably in the right place.
 
 This library provides a SeekBar similar to the default Android one, but with two thumb controls allowing a range to be selected.
 
@@ -29,7 +27,7 @@ Customizations:
 # How to run demo
 
 Should be able to import, build and run in Android Studio or from the command line with gradle.
-The rangeseekbar-sample shows the available features and customizations in code and XML.
+The androidrangeseekbar-sample shows the available features and customizations in code and XML.
 
 # How to use in your own project
 
@@ -41,7 +39,7 @@ The rangeseekbar-sample shows the available features and customizations in code 
 
 ```groovy
 	dependencies {
-    	compile 'org.florescu.android.rangeseekbar:rangeseekbar-library:0.3.0'
+    	compile 'com.ianpinto.androidrangeseekbar.rangeseekbar:rangeseekbar-library:1.0.0'
 	}
 ```
 
@@ -49,7 +47,7 @@ The rangeseekbar-sample shows the available features and customizations in code 
 
 ```groovy
 	dependencies {
-    	compile 'org.florescu.android.rangeseekbar:rangeseekbar-library:0.4.0-SNAPSHOT'
+    	compile 'com.ianpinto.androidrangeseekbar.rangeseekbar:rangeseekbar-library:1.0.0'
 	}
 ```
 
