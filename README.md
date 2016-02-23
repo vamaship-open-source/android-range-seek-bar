@@ -37,19 +37,19 @@ The androidrangeseekbar-sample shows the available features and customizations i
 
  * For latest release: 
 
-```groovy
-	dependencies {
-    	compile 'com.ianpinto.androidrangeseekbar.rangeseekbar:rangeseekbar-library:1.0.0'
-	}
-```
+Download
 
- * For the latest work-in-progress snapshot:
+Repository available on jCenter
 
-```groovy
-	dependencies {
-    	compile 'com.ianpinto.androidrangeseekbar.rangeseekbar:rangeseekbar-library:1.0.0'
-	}
-```
+compile 'com.ianpinto.androidrangeseekbar:androidrangeseekbar:1.0.0'
+
+If the dependency fails to resolve, add this to your project repositories
+
+repositories {
+    maven {
+        url  "https://dl.bintray.com/ian-pinto/maven"
+    }
+}
 
 # Credits
 
