@@ -5,7 +5,7 @@ android-range-seek-bar
 
 This library provides a SeekBar similar to the default Android one, but with two thumb controls allowing a range to be selected.
 
-![](demo_screenshot.png)
+![](https://raw.githubusercontent.com/vamaship-open-source/android-range-seek-bar/master/demo_screenshot.png)
 
 # Features and customizations
 
@@ -39,17 +39,17 @@ The androidrangeseekbar-sample shows the available features and customizations i
 
 Download
 
-Repository available on jCenter
+Repository available on **jCenter**
 
-compile 'com.ianpinto.androidrangeseekbar:androidrangeseekbar:1.0.0'
+    compile 'com.ianpinto.androidrangeseekbar:androidrangeseekbar:1.0.0'
 
 If the dependency fails to resolve, add this to your project repositories
 
-repositories {
-    maven {
-        url  "https://dl.bintray.com/ian-pinto/maven"
+    repositories {
+        maven {
+            url  "https://dl.bintray.com/ian-pinto/maven"
+        }
     }
-}
 
 # Credits
 
@@ -60,3 +60,4 @@ The android-range-seek-bar started as a fork of the following project: https://c
 The images are licensed under Creative Commons ( http://creativecommons.org/licenses/by/3.0/ ). The originals are provided in the original project ( https://code.google.com/p/range-seek-bar/ ) and seek_thumb_disabled.png is added by us.
 
 The source code is licensed under the Apache License. A copy of this can be found at http://www.apache.org/licenses/LICENSE-2.0 and has been included in the repository as well.
+
