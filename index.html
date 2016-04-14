@@ -1,25 +1,34 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!doctype html>
+<html>
   <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Android-range-seek-bar by vamaship-open-source</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
   <body>
-    <section class="page-header">
-      <h1 class="project-name">Android-range-seek-bar</h1>
-      <h2 class="project-tagline">It provides a SeekBar similar to the default Android one, but with two thumb controls allowing a range to be selected, and some other extras as well.</h2>
-      <a href="https://github.com/vamaship-open-source/android-range-seek-bar" class="btn">View on GitHub</a>
-      <a href="https://github.com/vamaship-open-source/android-range-seek-bar/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/vamaship-open-source/android-range-seek-bar/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+    <div class="wrapper">
+      <header>
+        <h1>Android-range-seek-bar</h1>
+        <p>It provides a SeekBar similar to the default Android one, but with two thumb controls allowing a range to be selected, and some other extras as well.</p>
 
-    <section class="main-content">
-      <h1>
+        <p class="view"><a href="https://github.com/vamaship-open-source/android-range-seek-bar">View the Project on GitHub <small>vamaship-open-source/android-range-seek-bar</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/vamaship-open-source/android-range-seek-bar/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/vamaship-open-source/android-range-seek-bar/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/vamaship-open-source/android-range-seek-bar">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
 <a id="android-range-seek-bar" class="anchor" href="#android-range-seek-bar" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>android-range-seek-bar</h1>
 
 <h1>
@@ -27,7 +36,7 @@
 
 <p>This library provides a SeekBar similar to the default Android one, but with two thumb controls allowing a range to be selected.</p>
 
-<p><img src="demo_screenshot.png" alt=""></p>
+<p><img src="https://raw.githubusercontent.com/vamaship-open-source/android-range-seek-bar/master/demo_screenshot.png" alt=""></p>
 
 <h1>
 <a id="features-and-customizations" class="anchor" href="#features-and-customizations" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features and customizations</h1>
@@ -75,17 +84,19 @@ The androidrangeseekbar-sample shows the available features and customizations i
 
 <p>Download</p>
 
-<p>Repository available on jCenter</p>
+<p>Repository available on <strong>jCenter</strong></p>
 
-<p>compile 'com.ianpinto.androidrangeseekbar:androidrangeseekbar:1.0.0'</p>
+<pre><code>compile 'com.ianpinto.androidrangeseekbar:androidrangeseekbar:1.0.0'
+</code></pre>
 
 <p>If the dependency fails to resolve, add this to your project repositories</p>
 
-<p>repositories {
+<pre><code>repositories {
     maven {
-        url  "<a href="https://dl.bintray.com/ian-pinto/maven">https://dl.bintray.com/ian-pinto/maven</a>"
+        url  "https://dl.bintray.com/ian-pinto/maven"
     }
-}</p>
+}
+</code></pre>
 
 <h1>
 <a id="credits" class="anchor" href="#credits" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Credits</h1>
@@ -98,15 +109,13 @@ The androidrangeseekbar-sample shows the available features and customizations i
 <p>The images are licensed under Creative Commons ( <a href="http://creativecommons.org/licenses/by/3.0/">http://creativecommons.org/licenses/by/3.0/</a> ). The originals are provided in the original project ( <a href="https://code.google.com/p/range-seek-bar/">https://code.google.com/p/range-seek-bar/</a> ) and seek_thumb_disabled.png is added by us.</p>
 
 <p>The source code is licensed under the Apache License. A copy of this can be found at <a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a> and has been included in the repository as well.</p>
-
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/vamaship-open-source/android-range-seek-bar">Android-range-seek-bar</a> is maintained by <a href="https://github.com/vamaship-open-source">vamaship-open-source</a>.</span>
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/vamaship-open-source">vamaship-open-source</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
-
-    </section>
-
-  
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
   </body>
 </html>
