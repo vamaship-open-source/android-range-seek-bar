@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Android-range-seek-bar by vamaship-open-source</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Android-range-seek-bar</h1>
+      <h2 class="project-tagline">It provides a SeekBar similar to the default Android one, but with two thumb controls allowing a range to be selected, and some other extras as well.</h2>
+      <a href="https://github.com/vamaship-open-source/android-range-seek-bar" class="btn">View on GitHub</a>
+      <a href="https://github.com/vamaship-open-source/android-range-seek-bar/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/vamaship-open-source/android-range-seek-bar/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="android-range-seek-bar" class="anchor" href="#android-range-seek-bar" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>android-range-seek-bar</h1>
+
+<h1>
+<a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Introduction</h1>
+
+<p>This library provides a SeekBar similar to the default Android one, but with two thumb controls allowing a range to be selected.</p>
+
+<p><img src="demo_screenshot.png" alt=""></p>
+
+<h1>
+<a id="features-and-customizations" class="anchor" href="#features-and-customizations" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features and customizations</h1>
+
+<p>Main features:</p>
+
+<ul>
+<li>Two thumbs allowing a range to be selected</li>
+<li>Supports integer ranges and floating point ranges</li>
+<li>Text indicating the selected min and max values on the bar</li>
+<li>Smoother drag animation</li>
+</ul>
+
+<p>Customizations:</p>
+
+<ul>
+<li>Ability to initialise from XML, with attributes (only tested for Integer and Double, would not support all the original types that the class supports when initialized programmatically)</li>
+<li>Ability to make the range-seek-bar only use one thumb instead of two, with all other feature remaining; can be set from XML.
+This makes it more similar to the default android seekbar, but you still benefit from the other features and very smooth animation.</li>
+<li>Text above thumbs can be disabled and colour can be changed</li>
+<li>Custom icons can be used for the thumbs</li>
+</ul>
+
+<h1>
+<a id="how-to-run-demo" class="anchor" href="#how-to-run-demo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to run demo</h1>
+
+<p>Should be able to import, build and run in Android Studio or from the command line with gradle.
+The androidrangeseekbar-sample shows the available features and customizations in code and XML.</p>
+
+<h1>
+<a id="how-to-use-in-your-own-project" class="anchor" href="#how-to-use-in-your-own-project" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use in your own project</h1>
+
+<h2>
+<a id="setup-as-gradle-dependency" class="anchor" href="#setup-as-gradle-dependency" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Setup as Gradle dependency</h2>
+
+<ul>
+<li>
+<p>Add this in your build.gradle file:</p>
+
+<ul>
+<li>For latest release: </li>
+</ul>
+</li>
+</ul>
+
+<p>Download</p>
+
+<p>Repository available on jCenter</p>
+
+<p>compile 'com.ianpinto.androidrangeseekbar:androidrangeseekbar:1.0.0'</p>
+
+<p>If the dependency fails to resolve, add this to your project repositories</p>
+
+<p>repositories {
+    maven {
+        url  "<a href="https://dl.bintray.com/ian-pinto/maven">https://dl.bintray.com/ian-pinto/maven</a>"
+    }
+}</p>
+
+<h1>
+<a id="credits" class="anchor" href="#credits" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Credits</h1>
+
+<p>The android-range-seek-bar started as a fork of the following project: <a href="https://code.google.com/p/range-seek-bar/">https://code.google.com/p/range-seek-bar/</a> under Apache license.</p>
+
+<h1>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h1>
+
+<p>The images are licensed under Creative Commons ( <a href="http://creativecommons.org/licenses/by/3.0/">http://creativecommons.org/licenses/by/3.0/</a> ). The originals are provided in the original project ( <a href="https://code.google.com/p/range-seek-bar/">https://code.google.com/p/range-seek-bar/</a> ) and seek_thumb_disabled.png is added by us.</p>
+
+<p>The source code is licensed under the Apache License. A copy of this can be found at <a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a> and has been included in the repository as well.</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/vamaship-open-source/android-range-seek-bar">Android-range-seek-bar</a> is maintained by <a href="https://github.com/vamaship-open-source">vamaship-open-source</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
